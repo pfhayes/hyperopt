@@ -22,7 +22,6 @@ from six.moves import zip
 from six.moves import map
 from six.moves import range
 
-standard_library.install_aliases()
 logger = logging.getLogger(__name__)
 np_versions = list(map(int, np.__version__.split('.')[:2]))
 

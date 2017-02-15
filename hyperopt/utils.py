@@ -15,7 +15,6 @@ import numpy
 from . import pyll
 from contextlib import contextmanager
 
-standard_library.install_aliases()
 logger = logging.getLogger(__name__)
 
 

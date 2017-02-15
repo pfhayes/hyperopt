@@ -133,7 +133,6 @@ __authors__ = ["James Bergstra", "Dan Yamins"]
 __license__ = "3-clause BSD License"
 __contact__ = "github.com/hyperopt/hyperopt"
 
-standard_library.install_aliases()
 logger = logging.getLogger(__name__)
 
 

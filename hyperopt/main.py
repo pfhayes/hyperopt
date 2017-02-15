@@ -12,7 +12,6 @@ from . import utils
 from .base import SerialExperiment
 import sys
 
-standard_library.install_aliases()
 logger = logging.getLogger(__name__)
 
 __authors__ = "James Bergstra"
